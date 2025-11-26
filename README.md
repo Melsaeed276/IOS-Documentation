@@ -21,25 +21,25 @@ Welcome to the iOS project documentation cookbook. This documentation provides a
 
 New to this project structure? Start here:
 
-1. **[Quick Start Guide](./QUICK_START.md)** - Set up a new iOS project from scratch
+1. **[Quick Start Guide](./documentation/QUICK_START.md)** - Set up a new iOS project from scratch
    - Project setup checklist
    - Step-by-step project creation
    - Essential files to create first
    - Common setup tasks
 
-2. **[Architecture Guide](./ARCHITECTURE.md)** - Understand the project architecture
+2. **[Architecture Guide](./documentation/ARCHITECTURE.md)** - Understand the project architecture
    - MVVM + Repository pattern
    - State management approach
    - Entry points and initialization
 
-3. **[Folder Structure](./FOLDER_STRUCTURE.md)** - Learn the project organization
+3. **[Folder Structure](./documentation/FOLDER_STRUCTURE.md)** - Learn the project organization
    - Complete directory structure
    - File naming conventions
    - Feature module organization
 
-4. **[Patterns](./PATTERNS.md)** - Review design patterns and architectural decisions
+4. **[Patterns](./documentation/PATTERNS.md)** - Review design patterns and architectural decisions
 
-5. **[Data Flow](./DATA_FLOW.md)** - Understand how data moves through the application
+5. **[Data Flow](./documentation/DATA_FLOW.md)** - Understand how data moves through the application
 
 ## Architecture Overview
 
@@ -97,7 +97,7 @@ graph TB
 
 ## Documentation Index
 
-### 🚀 [QUICK_START.md](./QUICK_START.md)
+### 🚀 [QUICK_START.md](./documentation/QUICK_START.md)
 Quick start guide for setting up a new iOS project:
 - Project setup checklist
 - Step-by-step new project creation
@@ -108,7 +108,7 @@ Quick start guide for setting up a new iOS project:
 
 ---
 
-### 📐 [ARCHITECTURE.md](./ARCHITECTURE.md)
+### 📐 [ARCHITECTURE.md](./documentation/ARCHITECTURE.md)
 Complete overview of project architecture, including:
 - Project purpose and overview
 - Architecture patterns (MVVM + Repository)
@@ -122,7 +122,7 @@ Complete overview of project architecture, including:
 
 ---
 
-### 📁 [FOLDER_STRUCTURE.md](./FOLDER_STRUCTURE.md)
+### 📁 [FOLDER_STRUCTURE.md](./documentation/FOLDER_STRUCTURE.md)
 Detailed directory structure and organization:
 - Complete folder tree
 - Purpose of each directory
@@ -134,7 +134,7 @@ Detailed directory structure and organization:
 
 ---
 
-### 🧩 [COMPONENTS.md](./COMPONENTS.md)
+### 🧩 [COMPONENTS.md](./documentation/COMPONENTS.md)
 Comprehensive component documentation:
 - Core components and entry points
 - Feature modules structure
@@ -146,7 +146,7 @@ Comprehensive component documentation:
 
 ---
 
-### 🎨 [PATTERNS.md](./PATTERNS.md)
+### 🎨 [PATTERNS.md](./documentation/PATTERNS.md)
 Design patterns and architectural decisions:
 - MVVM pattern implementation
 - Repository pattern usage
@@ -160,7 +160,7 @@ Design patterns and architectural decisions:
 
 ---
 
-### 🔄 [DATA_FLOW.md](./DATA_FLOW.md)
+### 🔄 [DATA_FLOW.md](./documentation/DATA_FLOW.md)
 Complete data flow documentation:
 - User journey flow
 - Navigation state management
@@ -174,7 +174,7 @@ Complete data flow documentation:
 
 ---
 
-### 🌐 [API_INTEGRATION.md](./API_INTEGRATION.md)
+### 🌐 [API_INTEGRATION.md](./documentation/API_INTEGRATION.md)
 API integration and communication:
 - API Manager actor implementation
 - JWT token management
@@ -188,7 +188,7 @@ API integration and communication:
 
 ---
 
-### 🎨 [RESOURCES.md](./RESOURCES.md)
+### 🎨 [RESOURCES.md](./documentation/RESOURCES.md)
 Resources, assets, and localization:
 - Image assets organization
 - Color system
@@ -201,7 +201,7 @@ Resources, assets, and localization:
 
 ---
 
-### 🧪 [TESTING.md](./TESTING.md)
+### 🧪 [TESTING.md](./documentation/TESTING.md)
 Comprehensive testing guide:
 - XCTest and Swift Testing frameworks
 - Unit testing strategies
@@ -216,7 +216,7 @@ Comprehensive testing guide:
 
 ---
 
-### ✅ [CODE_REVIEW.md](./CODE_REVIEW.md)
+### ✅ [CODE_REVIEW.md](./documentation/CODE_REVIEW.md)
 Code review guidelines and best practices:
 - What to look for in reviews
 - Architecture compliance checks
@@ -229,7 +229,7 @@ Code review guidelines and best practices:
 
 ---
 
-### 📖 [GLOSSARY.md](./GLOSSARY.md)
+### 📖 [GLOSSARY.md](./documentation/GLOSSARY.md)
 Comprehensive glossary of terms, concepts, and patterns used throughout the documentation:
 - Architecture patterns and concepts
 - Component definitions
@@ -241,7 +241,7 @@ Comprehensive glossary of terms, concepts, and patterns used throughout the docu
 
 ---
 
-### 📝 [CHANGELOG.md](./CHANGELOG.md)
+### 📝 [CHANGELOG.md](./documentation/CHANGELOG.md)
 Changelog tracking all notable changes to the documentation:
 - Documentation updates
 - Architecture changes
@@ -364,7 +364,7 @@ ProjectName/
 8. **Keep features modular** and self-contained
 9. **Write tests** for business logic and repositories
 10. **Document complex logic** with inline comments
-11. **Follow code review guidelines** - See [CODE_REVIEW.md](./CODE_REVIEW.md) for detailed guidelines
+11. **Follow code review guidelines** - See [CODE_REVIEW.md](./documentation/CODE_REVIEW.md) for detailed guidelines
 
 ## Troubleshooting
 
@@ -717,11 +717,11 @@ This documentation should be maintained alongside the project. When making signi
 3. Add examples for new features
 4. Keep diagrams and flow charts current
 5. Update code examples to reflect current implementation
-6. **Update [CHANGELOG.md](./CHANGELOG.md)** with all notable changes, including documentation updates, architecture changes, and breaking changes
+6. **Update [CHANGELOG.md](./documentation/CHANGELOG.md)** with all notable changes, including documentation updates, architecture changes, and breaking changes
 
 ## Changelog
 
-All notable changes to this documentation cookbook are documented in [CHANGELOG.md](./CHANGELOG.md).
+All notable changes to this documentation cookbook are documented in [CHANGELOG.md](./documentation/CHANGELOG.md).
 
 The changelog tracks:
 - **Documentation Updates**: Changes to documentation files, new guides, updated examples
