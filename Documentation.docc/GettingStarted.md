@@ -1,7 +1,7 @@
 # iOS Project Documentation Cookbook
 
 @Metadata {
-    @DisplayName("Getting Started")
+    @DisplayName("iOS Project Documentation")
     @PageKind(article)
     @PageImage(purpose: icon, source: "icon", alt: "iOS Project Documentation")
 }
