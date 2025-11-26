@@ -15,7 +15,6 @@ Welcome to the iOS project documentation cookbook. This documentation provides a
 - [Additional Resources](#additional-resources)
 - [Documentation Maintenance](#documentation-maintenance)
 - [Changelog](#changelog)
-- [Glossary](#glossary)
 
 ## Getting Started
 
