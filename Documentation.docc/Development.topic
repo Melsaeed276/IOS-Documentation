@@ -1,0 +1,8 @@
+# Development
+
+@Topics {
+    @Page(name: "API Integration", destination: "doc:APIIntegration")
+    @Page(name: "Resources", destination: "doc:Resources")
+    @Page(name: "Folder Structure", destination: "doc:FolderStructure")
+}
+

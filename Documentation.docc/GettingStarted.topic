@@ -1,0 +1,8 @@
+# Getting Started
+
+@Topics {
+    @Page(name: "Quick Start Guide", destination: "doc:QuickStartGuide")
+    @Page(name: "Architecture", destination: "doc:Architecture")
+    @Page(name: "Folder Structure", destination: "doc:FolderStructure")
+}
+

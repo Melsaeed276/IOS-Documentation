@@ -1,0 +1,9 @@
+# Architecture
+
+@Topics {
+    @Page(name: "Architecture Overview", destination: "doc:Architecture")
+    @Page(name: "Patterns", destination: "doc:Patterns")
+    @Page(name: "Data Flow", destination: "doc:DataFlow")
+    @Page(name: "Components", destination: "doc:Components")
+}
+
