@@ -34,9 +34,21 @@ jobs:
             --target iOSProjectDocumentation \
             --output-path .build/documentation \
             --transform-for-static-hosting \
-            --hosting-base-path /IOS-Documentation
+            --hosting-base-path /IOS-Documentation || exit 1
         env:
           DOCC_JSON_PRETTYPRINT: YES
+      
+      - name: Verify Documentation Build
+        run: |
+          if [ ! -d ".build/documentation" ]; then
+            echo "Error: Documentation directory not found"
+            exit 1
+          fi
+          if [ ! -f ".build/documentation/index.html" ]; then
+            echo "Error: index.html not found"
+            exit 1
+          fi
+          echo "Documentation build verified successfully"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

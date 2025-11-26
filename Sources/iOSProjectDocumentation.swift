@@ -5,32 +5,25 @@
 ///
 /// ## Getting Started
 ///
-/// Start with the <doc:GettingStarted> guide to learn about the project structure
+/// Start with the GettingStarted guide to learn about the project structure
 /// and architecture patterns.
 ///
-/// ## Topics
+/// ## Documentation Articles
 ///
-/// ### Getting Started
-/// - <doc:QuickStartGuide> - Set up a new iOS project
-/// - <doc:Architecture> - Understand the architecture
-/// - <doc:FolderStructure> - Learn the folder structure
+/// This package includes comprehensive documentation covering:
 ///
-/// ### Architecture
-/// - <doc:Patterns> - Design patterns and best practices
-/// - <doc:DataFlow> - Data flow patterns
-/// - <doc:Components> - Component documentation
-///
-/// ### Development
-/// - <doc:APIIntegration> - API integration guide
-/// - <doc:Resources> - Resources management
-///
-/// ### Quality
-/// - <doc:Testing> - Testing strategies
-/// - <doc:CodeReview> - Code review guidelines
-///
-/// ### Reference
-/// - <doc:Glossary> - Glossary of terms
-/// - <doc:Changelog> - Changelog
+/// - **Quick Start Guide** - Set up a new iOS project
+/// - **Architecture** - Understand the architecture
+/// - **Folder Structure** - Learn the project organization
+/// - **Patterns** - Design patterns and best practices
+/// - **Data Flow** - Data flow patterns
+/// - **Components** - Component documentation
+/// - **API Integration** - API integration guide
+/// - **Resources** - Resources management
+/// - **Testing** - Testing strategies
+/// - **Code Review** - Code review guidelines
+/// - **Glossary** - Glossary of terms
+/// - **Changelog** - Changelog
 public struct iOSProjectDocumentation {
     public init() {}
 }
