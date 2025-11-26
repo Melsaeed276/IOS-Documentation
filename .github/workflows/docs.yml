@@ -1,0 +1,52 @@
+name: Build and Deploy Documentation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: macos-14
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Swift
+        uses: swift-actions/setup-swift@v1
+        with:
+          swift-version: "5.9"
+
+      - name: Build Documentation
+        run: |
+          swift package resolve
+          swift package --disable-sandbox generate-documentation \
+            --target iOSProjectDocumentation \
+            --output-path .build/documentation \
+            --transform-for-static-hosting \
+            --hosting-base-path /IOS-Documentation
+        env:
+          DOCC_JSON_PRETTYPRINT: YES
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .build/documentation
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
